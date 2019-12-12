@@ -190,7 +190,7 @@
 					
 					if($(window).data('ajaxready') == false) return;
 					if (maxHeight <= currentScroll) {
-					if (page <= 100) {
+					if (page <= ${resultPage.maxPage}) {
 						$(window).data('ajaxready', false);
 						page++;
 						console.log('page : ' + page);
@@ -300,7 +300,7 @@
 	    
 		    <div class="col-md-6 text-left">
 		    	<p class="text-primary">
-		    		전체  ${resultPage.totalCount } 건수, 현재 ${resultPage.currentPage}  페이지
+		    		전체  ${resultPage.totalCount } 건수
 		    	</p>
 		    </div>
 		    
@@ -324,7 +324,7 @@
 				  <div class="form-group">
 				    <label class="sr-only" for="searchKeyword">검색어</label>
 					<input type="text" class="form-control" id="searchKeyword" name="searchKeyword" title="대소문자를 구별합니다." placeholder="검색어"
-						value=""  > 
+						value="${! empty search.searchKeyword ? search.searchKeyword : '' }"  > 
 				  </div>
 				  
 				  <button type="button" class="btn btn-default">검색</button>
