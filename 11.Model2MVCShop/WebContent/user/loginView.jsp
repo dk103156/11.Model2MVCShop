@@ -197,8 +197,8 @@
 				
 				<div class="jumbotron">	 	 	
 		 	 		<h1 class="text-center">
-		 	 			<span class="neon" style="font-size: 45px;">꿈과 환상의 나라로<br/></span>
-		 	 			<span class="flux" style="font-size: 50px;">Let's Go!</span>
+		 	 			<span class="neon" style="font-size: 45px;">꿈과 환상의 나라<br/></span>
+		 	 			<span class="flux" style="font-size: 50px;">디즈니 랜드로 Let's Go!</span>
 		 	 		</h1>
 		 	 		
 				
@@ -230,10 +230,10 @@
   <div id="naver_id_login" style="padding-left: 33px;"></div>
   <!-- //네이버아이디로로그인 버튼 노출 영역 -->
   <script type="text/javascript">
-  	var naver_id_login = new naver_id_login("HRPq2PQ8gvZlJdjui680", "http://127.0.0.1:8080/user/callback.jsp");
+  	var naver_id_login = new naver_id_login("HRPq2PQ8gvZlJdjui680", "http://192.168.0.61:8080/user/callback.jsp");
   	var state = naver_id_login.getUniqState();
   	naver_id_login.setButton("green", 3, 35);
-  	naver_id_login.setDomain("http://127.0.0.1:8080/user/loginView.jsp");
+  	naver_id_login.setDomain("http://192.168.0.61:8080/user/loginView.jsp");
   	naver_id_login.setState(state);
   	//naver_id_login.setPopup();
   	naver_id_login.init_naver_id_login();

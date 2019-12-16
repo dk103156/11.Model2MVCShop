@@ -15,7 +15,7 @@ $( function(){
   var userName2;
   var password2;
   
-  var naver_id_login = new naver_id_login("HRPq2PQ8gvZlJdjui680", "http://127.0.0.1:8080/user/callback.jsp");
+  var naver_id_login = new naver_id_login("HRPq2PQ8gvZlJdjui680", "http://192.168.0.61:8080/user/callback.jsp");
   // 접근 토큰 값 출력
   //alert(naver_id_login.oauthParams.access_token);
   // 네이버 사용자 프로필 조회
