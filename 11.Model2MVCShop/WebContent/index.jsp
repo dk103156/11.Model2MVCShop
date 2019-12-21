@@ -149,6 +149,20 @@
 					</ul>
 				</div>
 				
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+							<i class="glyphicon glyphicon-shopping-cart"></i> 지도 API 연습
+	    			</div>				
+					<ul class="list-group">
+						 <li class="list-group-item">
+						 	<a href="./DaumAddr.jsp">다음 주소 API</a>
+						 </li>
+						 <li class="list-group-item">
+						 	<a href="./KaKaoMap.jsp">카카오 맵 API</a>
+						 </li>						 
+					</ul>	    			
+				</div>				
+				
 			</div>
 			<!--  Menu 구성 end /////////////////////////////////////-->   
 
