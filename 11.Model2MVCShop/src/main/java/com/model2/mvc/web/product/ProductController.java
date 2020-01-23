@@ -77,7 +77,7 @@ public class ProductController {
 //	private static final String UPLOAD_PATH_TOMCAT = "C:\\workspace\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp0\\wtpwebapps\\11.Model2MVCShop\\images\\uploadFiles"; 
 
 //	★★★ git workspace 에 저장하는 경로 ( 로딩되는데 시간이 좀 걸려서 추가 후 상품검색해서 봐야 보임... ) ★★★
-	private static final String UPLOAD_PATH = "C:\\workspace\\11.Model2MVCShop\\WebContent\\images\\uploadFiles";
+	private static final String UPLOAD_PATH = "C:\\Users\\user\\git\\11.Model2MVCShop\\11.Model2MVCShop\\WebContent\\images\\uploadFiles";
 	
 	// 파일 추가 시 :: Spring Multiple FileUpload Test
 	@RequestMapping(value = "addProduct", method = RequestMethod.POST)
